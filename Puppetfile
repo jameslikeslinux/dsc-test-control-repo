@@ -23,6 +23,10 @@ mod 'theforeman-foreman_proxy', '26.0.0'
 mod 'theforeman-puppet', '19.2.0'
 mod 'theforeman-puppetserver_foreman', '4.0.0'
 
+mod 'dsc',
+  git:    'https://github.com/puppetlabs-toy-chest/puppetlabs-dsc.git',
+  branch: 'main'
+
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
