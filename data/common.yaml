@@ -1,0 +1,4 @@
+---
+foreman::initial_admin_password: 'admin'
+foreman::repo::repo: '3.10'
+puppet::runmode: 'none'

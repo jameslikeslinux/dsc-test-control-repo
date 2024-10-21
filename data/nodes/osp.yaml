@@ -1,0 +1,5 @@
+---
+classes:
+  - 'role::osp'
+
+profile::puppet::server: true
